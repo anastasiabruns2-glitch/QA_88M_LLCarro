@@ -1,0 +1,22 @@
+1. pip install pytest
+2. pip install --upgrade pip
+3. pip install -r requirements.txt
+
+4. Befehl für Testrun:
+pytest
+
+5. Ganze Beschreibung vom Test:
+pytest -v
+
+6. Um print auszugeben
+pytest -s
+
+7. man kann die beiden Sachen gemeinsam aufschreiben:
+pytest -s -v
+
+8. Welche Version von Pytest prüfen:
+pytest --version
+
+9. pytest filename --> zum Beispiel pytest test_pytest.py
+
+pytest lession_06_260908/test_pytest.py
