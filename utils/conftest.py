@@ -1,7 +1,14 @@
 
 import pytest
 import requests
+import time
+import random
 from config import *
+from faker import Faker
+
+from models.user_dto import User
+
+fake = Faker()
 
 @pytest.fixture(scope="session")
 def registration_url():
@@ -15,3 +22,40 @@ def login_url():
 def session():
     s = requests.Session()
     yield s
+    s.close()
+
+@pytest.fixture(scope="function")
+def random_user():
+    username = f"qa_¨{int(time.time())}_{fake.email()}"
+    password = fake.password(
+        length=random.randint(8, 15),
+        special_chars=True,
+        digits=True,
+        upper_case=True,
+        lower_case=True,)
+    return User(username=username, password=password)
+
+@pytest.fixture(scope="session")
+def add_new_car_url():
+    return BASE_URL + API_VERSION + ADD_NEW_CAR_URL
+
+@pytest.fixture(scope="session")
+def get_user_car_url():
+    return BASE_URL + API_VERSION + GET_USER_CARS_URL
+
+@pytest.fixture(scope="session")
+def delete_user_car_by_id_url():
+    return BASE_URL + API_VERSION + DELETE_CAR_BY_ID
+
+@pytest.fixture(scope="function")
+def create_user_car_url():
+        serialNumber= f"FGH-{random.randint(1, 100)}"
+        manufacture = fake.company()
+        model= "Nimbus2000"
+        year= "2026"
+        fuel= "Diesel"
+        seats = random.randint(2, 32)  # Что означает ($int32)?
+        carClass= "HJ"
+        pricePerDay = random.randint(1.0, 1000.0) # float  # как отобразить number($double) ?
+        about = f"{fake.text(max_nb_chars=25)}"
+        city = "Haifa"

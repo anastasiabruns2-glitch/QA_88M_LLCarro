@@ -1,6 +1,6 @@
-1. pip install pytest
-2. pip install --upgrade pip
-3. pip install -r requirements.txt
+1. python3 -m pip install pytest
+2. pip3 install --upgrade pip
+3. pip3 install -r requirements.txt
 
 4. Befehl für Testrun:
 pytest
@@ -15,7 +15,7 @@ pytest -s
 pytest -s -v
 
 8. Welche Version von Pytest prüfen:
-pytest --version
+python3 -m pytest --version
 
 9. pytest filename --> zum Beispiel pytest test_pytest.py
 
