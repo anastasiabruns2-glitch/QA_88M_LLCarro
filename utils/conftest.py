@@ -1,8 +1,10 @@
-
+# Bibliotheken:
 import pytest
 import requests
 import time
 import random
+import unittest
+
 from config import *
 from faker import Faker
 
@@ -10,6 +12,7 @@ from models.user_dto import User
 
 fake = Faker()
 
+# Fixtures:
 @pytest.fixture(scope="session")
 def registration_url():
     return BASE_URL + API_VERSION + REGISTRATION_URL
@@ -50,6 +53,12 @@ def delete_user_car_by_id_url():
 @pytest.fixture(scope="function")
 def create_user_car_url():
         serialNumber= f"FGH-{random.randint(1, 100)}"
+        # Можно ли перенести его в качестве переменной в файл SetUp?
+        """
+class TestUserProfile(unittest.TestCase):
+def setUp(self):
+    self.serialNumber = f"FGH-{random.randint(1, 100)}"
+        """
         manufacture = fake.company()
         model= "Nimbus2000"
         year= "2026"
@@ -59,3 +68,14 @@ def create_user_car_url():
         pricePerDay = random.randint(1.0, 1000.0) # float  # как отобразить number($double) ?
         about = f"{fake.text(max_nb_chars=25)}"
         city = "Haifa"
+        return Car(
+            serialNumber=serialNumber,
+            manufacture=manufacture,
+            model=model,
+            year=year,
+            fuel=fuel,
+            seats=seats,
+            carClass=carClass,
+            pricePerDay=pricePerDay,
+            about=about,
+            city=city)
