@@ -7,7 +7,7 @@ class Car:
     model : str
     year : str
     fuel : str
-    seats : int # Что означает ($int32)?
+    seats : int # Что означает ($int32)? #Formsat
     carClass : str
     pricePerDay: float # как отобразить number($double) ?
     about : str

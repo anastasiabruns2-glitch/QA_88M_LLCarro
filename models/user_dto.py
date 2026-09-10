@@ -4,3 +4,6 @@ from dataclasses import dataclass
 class User:
     username: str
     password: str
+    firstName: str
+    lastName: str
+
