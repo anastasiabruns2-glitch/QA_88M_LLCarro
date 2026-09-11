@@ -39,8 +39,6 @@ class TestRegistration:
         "fgh123.ghj.hjk",
         "fdsdf234@",
         "@ghj.com",
-        "gh@ghjcom",
-        "fgh@ghj",
         "ghjjkghj@@ghj.com",
         "fghj @hjk.com",
     ])
@@ -58,4 +56,24 @@ class TestRegistration:
         session.post(registration_url, json=body, headers=headers)
         response = session.post(registration_url, json=body, headers=headers)
         print(response.json()) #um zu sehen, welche message kommt
-        assert response.status_code == 400
+        data = response.json()
+        assert response.status_code == 400#
+        assert "must be a well-formed" in data["message"]["username"]
+
+    def test_registration_negative_invalid_email_BUG(self, session, registration_url):
+        user = User("gh@gfghcom", "Qwerty123$", "Bob", "Blalbla")
+        body = {
+            "username": user.username,
+            "password": user.password,
+            "firstName": user.firstName,
+            "lastName": user.lastName,
+        }
+        headers = {
+            "Content-Type": "application/json",
+        }
+        session.post(registration_url, json=body, headers=headers)
+        response = session.post(registration_url, json=body, headers=headers)
+        print(response.json()) #um zu sehen, welche message kommt
+        data = response.json()
+        assert response.status_code == 400#
+        assert "must be a well-formed" in data["message"]["username"] # BUG: 'User already exists'

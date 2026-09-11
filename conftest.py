@@ -61,11 +61,11 @@ def create_a_car():
         serialNumber= f"FGH-{random.randint(1, 100)}"
         manufacture = fake.company()
         model= "Nimbus2000"
-        year= "2026"
-        fuel= "Diesel"
-        seats = random.randint(2, 20)  # Что означает ($int32)?
+        year= str(random.randint(0, 2026))
+        fuel= random.choice(["Diesel", "Gas", "XXX"]) # prüfen
+        seats = random.randint(2, 20)  #
         carClass= "HJ"
-        pricePerDay = random.randint(1.0, 1000.0) # float  # как отобразить number($double) ?
+        pricePerDay = round(random.uniform(0.0, 1000.0), 2) # float  # как отобразить number($double)
         about = f"{fake.text(max_nb_chars=25)}"
         city = "Haifa"
         return Car(
