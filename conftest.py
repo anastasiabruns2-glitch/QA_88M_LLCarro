@@ -8,7 +8,7 @@ from config import *
 from faker import Faker
 
 from models.car_dto import Car
-from models.user_dto import User
+from models.user_dto import UserRegistr, UserLogin
 
 fake = Faker()
 
@@ -38,11 +38,11 @@ def random_user():
         lower_case=True,)+"$"
     firstName = fake.first_name()
     lastName = fake.last_name()
-    return User(
+    return UserRegistr(
         username=username,
         password=password,
         firstName=firstName,
-        lastName=lastName)
+        lastName=lastName,)
 
 @pytest.fixture(scope="session")
 def add_new_car_url():
@@ -62,7 +62,7 @@ def create_a_car():
         manufacture = fake.company()
         model= "Nimbus2000"
         year= str(random.randint(0, 2026))
-        fuel= random.choice(["Diesel", "Gas", "XXX"]) # prüfen
+        fuel= random.choice(["Diesel", "Gas", "Electric"]) # prüfen
         seats = random.randint(2, 20)  #
         carClass= "HJ"
         pricePerDay = round(random.uniform(0.0, 1000.0), 2) # float  # как отобразить number($double)
@@ -78,4 +78,8 @@ def create_a_car():
             carClass=carClass,
             pricePerDay=pricePerDay,
             about=about,
-            city=city)
+            city=city,)
+
+@pytest.fixture(scope="function")
+def registered_user(session, registration_url): #
+    return UserLogin(TEST_EMAIL, TEST_PASSWORD)

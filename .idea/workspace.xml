@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07f9d9b5-0108-43db-94d6-0b8f1c37f89c" name="Changes" comment="CW 260910">
+    <list default="true" id="07f9d9b5-0108-43db-94d6-0b8f1c37f89c" name="Changes" comment="HW 260911">
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/user_dto.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_registration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +40,65 @@
     &quot;accountId&quot;: &quot;14ca086f-8f09-486b-8509-bd76bceb7632&quot;
   }
 }</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="6.0038166180148185E-252" />
+      <entry key="MS500" value="5.697515085058639E-51" />
+      <entry key="S2" value="2.7473966915521016E-13" />
+      <entry key="S5" value="9.452975872956481E-6" />
+      <entry key="S10" value="0.003074721385034615" />
+      <entry key="S30" value="0.15075165909431718" />
+      <entry key="S60" value="0.45722373600491273" />
+      <entry key="M2" value="0.9836545734233693" />
+      <entry key="M5" value="2.8551948486592806" />
+      <entry key="M10" value="8.704523574762952" />
+      <entry key="M15" value="15.892924662774425" />
+      <entry key="M30" value="33.13365256325337" />
+      <entry key="H1" value="50.13016610503023" />
+      <entry key="H2" value="62.32350714133741" />
+      <entry key="H4" value="69.66616163794286" />
+      <entry key="D1" value="76.53637128421421" />
+      <entry key="W1" value="77.78900057723861" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000069624025485" />
+      <entry key="S2" value="1.0543619476799018" />
+      <entry key="S5" value="1.4028440407952867" />
+      <entry key="S10" value="1.8694138990362932" />
+      <entry key="S30" value="2.6758753691044808" />
+      <entry key="S60" value="3.3019884318631765" />
+      <entry key="M2" value="4.170127141769379" />
+      <entry key="M5" value="5.671388641583425" />
+      <entry key="M10" value="7.378233611757846" />
+      <entry key="M15" value="9.047596620663619" />
+      <entry key="M30" value="12.92385696553519" />
+      <entry key="H1" value="16.73640340818312" />
+      <entry key="H2" value="19.475258447445707" />
+      <entry key="H4" value="21.125809051090062" />
+      <entry key="D1" value="22.67079294515466" />
+      <entry key="W1" value="22.952539680313993" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.9889535448819806E-5" />
+      <entry key="MS500" value="0.12448209791937982" />
+      <entry key="S2" value="0.626158010354546" />
+      <entry key="S5" value="1.1351807215620735" />
+      <entry key="S10" value="1.6800915418865783" />
+      <entry key="S30" value="2.7244873454567453" />
+      <entry key="S60" value="3.691095588336422" />
+      <entry key="M2" value="5.108002301463006" />
+      <entry key="M5" value="8.499904253491342" />
+      <entry key="M10" value="16.060269228176548" />
+      <entry key="M15" value="24.916916821023303" />
+      <entry key="M30" value="46.03430121998105" />
+      <entry key="H1" value="66.84902898903337" />
+      <entry key="H2" value="81.78781815536145" />
+      <entry key="H4" value="90.78583504774609" />
+      <entry key="D1" value="99.20603783235538" />
+      <entry key="W1" value="100.74137663287935" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4,
   &quot;fromUser&quot;: false
@@ -48,32 +111,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for test.test_registration.TestRegistration.executor": "Run",
-    "Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_duplicate_user.executor": "Run",
-    "Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_email.executor": "Run",
-    "Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_email_BUG.executor": "Run",
-    "Python tests.Python tests for test.test_registration.TestRegistration.test_registration_positive.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/hakanbruns/Desktop/_NASTJA/00_KURSE/_AI-INGENEER/06_Softwaretasting/QA_88M_LLCarro",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test.test_login.TestLogin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.test_login.TestLogin.test_login_positiv.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.test_registration.TestRegistration.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_duplicate_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_email.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_email_BUG.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_password.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.test_registration.TestRegistration.test_registration_positive.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_registration.TestRegistration.test_registration_negative_invalid_email_BUG.test_registration_negative_invalid_password.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hakanbruns/Desktop/_NASTJA/00_KURSE/_AI-INGENEER/06_Softwaretasting/QA_88M_LLCarro&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -82,8 +149,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test.test_registration.TestRegistration">
-    <configuration name="Python tests for test.test_registration.TestRegistration" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_duplicate_user">
+    <configuration name="Python tests for test.test_login.TestLogin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA_88M_LLCarro" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,7 +163,24 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_registration.TestRegistration&quot;" />
+      <option name="_new_target" value="&quot;test.test_login.TestLogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.test_login.TestLogin.test_login_positiv" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QA_88M_LLCarro" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_login.TestLogin.test_login_positiv&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -134,23 +218,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_email_BUG" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="QA_88M_LLCarro" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_registration.TestRegistration.test_registration_negative_invalid_email_BUG&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test.test_registration.TestRegistration.test_registration_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA_88M_LLCarro" />
       <option name="ENV_FILES" value="" />
@@ -170,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test.test_registration.TestRegistration" />
-        <item itemvalue="Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_email" />
-        <item itemvalue="Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_email_BUG" />
         <item itemvalue="Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_duplicate_user" />
         <item itemvalue="Python tests.Python tests for test.test_registration.TestRegistration.test_registration_positive" />
+        <item itemvalue="Python tests.Python tests for test.test_login.TestLogin" />
+        <item itemvalue="Python tests.Python tests for test.test_login.TestLogin.test_login_positiv" />
+        <item itemvalue="Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_email" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789062006933</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="HW 260911">
+      <option name="closed" value="true" />
+      <created>1789121181072</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1789121181072</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +319,7 @@
     <MESSAGE value="Homework 260910: Создать проект, создать папку,&#10;скопировать файлы config и conftest&#10;скопировать @fixture для дополнительных опций из Swagger&#10;(ADD_NEW_CAR_URL, GET_USER_CARS_URL, DELETE_CAR_BY_ID)" />
     <MESSAGE value="Homework 260910: SetUp" />
     <MESSAGE value="CW 260910" />
-    <option name="LAST_COMMIT_MESSAGE" value="CW 260910" />
+    <MESSAGE value="HW 260911" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 260911" />
   </component>
 </project>
