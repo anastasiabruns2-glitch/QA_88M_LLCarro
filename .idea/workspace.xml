@@ -42,61 +42,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="6.0038166180148185E-252" />
-      <entry key="MS500" value="5.697515085058639E-51" />
-      <entry key="S2" value="2.7473966915521016E-13" />
-      <entry key="S5" value="9.452975872956481E-6" />
-      <entry key="S10" value="0.003074721385034615" />
-      <entry key="S30" value="0.15075165909431718" />
-      <entry key="S60" value="0.45722373600491273" />
-      <entry key="M2" value="0.9836545734233693" />
-      <entry key="M5" value="2.8551948486592806" />
-      <entry key="M10" value="8.704523574762952" />
-      <entry key="M15" value="15.892924662774425" />
-      <entry key="M30" value="33.13365256325337" />
-      <entry key="H1" value="50.13016610503023" />
-      <entry key="H2" value="62.32350714133741" />
-      <entry key="H4" value="69.66616163794286" />
-      <entry key="D1" value="76.53637128421421" />
-      <entry key="W1" value="77.78900057723861" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000002434737" />
+      <entry key="S30" value="1.0006781598713297" />
+      <entry key="S60" value="1.0372702607928723" />
+      <entry key="M2" value="1.368992216586441" />
+      <entry key="M5" value="3.1604635235252974" />
+      <entry key="M10" value="7.992374811283281" />
+      <entry key="M15" value="14.349042058042837" />
+      <entry key="M30" value="31.328400587958438" />
+      <entry key="H1" value="49.66322687369168" />
+      <entry key="H2" value="63.51409796656446" />
+      <entry key="H4" value="72.08562347910421" />
+      <entry key="D1" value="80.24528561618902" />
+      <entry key="W1" value="81.74669300500567" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000069624025485" />
-      <entry key="S2" value="1.0543619476799018" />
-      <entry key="S5" value="1.4028440407952867" />
-      <entry key="S10" value="1.8694138990362932" />
-      <entry key="S30" value="2.6758753691044808" />
-      <entry key="S60" value="3.3019884318631765" />
-      <entry key="M2" value="4.170127141769379" />
-      <entry key="M5" value="5.671388641583425" />
-      <entry key="M10" value="7.378233611757846" />
-      <entry key="M15" value="9.047596620663619" />
-      <entry key="M30" value="12.92385696553519" />
-      <entry key="H1" value="16.73640340818312" />
-      <entry key="H2" value="19.475258447445707" />
-      <entry key="H4" value="21.125809051090062" />
-      <entry key="D1" value="22.67079294515466" />
-      <entry key="W1" value="22.952539680313993" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="6.10542755337496E-277" />
+      <entry key="S2" value="9.320044550635805E-70" />
+      <entry key="S5" value="3.3541362282061592E-28" />
+      <entry key="S10" value="2.8906207791029504E-14" />
+      <entry key="S30" value="6.666447034500335E-5" />
+      <entry key="S60" value="0.016481237695996284" />
+      <entry key="M2" value="0.29461607135995166" />
+      <entry key="M5" value="1.9648629528271788" />
+      <entry key="M10" value="4.342840001434787" />
+      <entry key="M15" value="6.354492157853322" />
+      <entry key="M30" value="10.830935062687631" />
+      <entry key="H1" value="15.321420779685072" />
+      <entry key="H2" value="18.633810820487398" />
+      <entry key="H4" value="20.664389356628135" />
+      <entry key="D1" value="22.587504296964433" />
+      <entry key="W1" value="22.940474421989226" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.9889535448819806E-5" />
-      <entry key="MS500" value="0.12448209791937982" />
-      <entry key="S2" value="0.626158010354546" />
-      <entry key="S5" value="1.1351807215620735" />
-      <entry key="S10" value="1.6800915418865783" />
-      <entry key="S30" value="2.7244873454567453" />
-      <entry key="S60" value="3.691095588336422" />
-      <entry key="M2" value="5.108002301463006" />
-      <entry key="M5" value="8.499904253491342" />
-      <entry key="M10" value="16.060269228176548" />
-      <entry key="M15" value="24.916916821023303" />
-      <entry key="M30" value="46.03430121998105" />
-      <entry key="H1" value="66.84902898903337" />
-      <entry key="H2" value="81.78781815536145" />
-      <entry key="H4" value="90.78583504774609" />
-      <entry key="D1" value="99.20603783235538" />
-      <entry key="W1" value="100.74137663287935" />
+      <entry key="MS100" value="0.9460576467255959" />
+      <entry key="MS500" value="0.9889709163809315" />
+      <entry key="S2" value="0.9972312513520695" />
+      <entry key="S5" value="0.9988915792636801" />
+      <entry key="S10" value="0.9994456362137527" />
+      <entry key="S30" value="1.0005557462434165" />
+      <entry key="S60" value="1.0532747145314618" />
+      <entry key="M2" value="1.6601379664536566" />
+      <entry key="M5" value="5.115768070854127" />
+      <entry key="M10" value="12.321732324252201" />
+      <entry key="M15" value="20.68676497455326" />
+      <entry key="M30" value="42.1397745377571" />
+      <entry key="H1" value="64.96853003755238" />
+      <entry key="H2" value="82.13740313646828" />
+      <entry key="H4" value="92.74399529555929" />
+      <entry key="D1" value="102.83166495944825" />
+      <entry key="W1" value="104.68700350228299" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -121,6 +121,7 @@
     &quot;Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_email.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_email_BUG.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_password.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_password_BUG.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test.test_registration.TestRegistration.test_registration_positive.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_registration.TestRegistration.test_registration_negative_invalid_email_BUG.test_registration_negative_invalid_password.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -139,6 +140,13 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -149,7 +157,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_duplicate_user">
+  <component name="RunManager" selected="Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_email_BUG">
     <configuration name="Python tests for test.test_login.TestLogin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA_88M_LLCarro" />
       <option name="ENV_FILES" value="" />
@@ -164,23 +172,6 @@
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test.test_login.TestLogin&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test.test_login.TestLogin.test_login_positiv" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="QA_88M_LLCarro" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_login.TestLogin.test_login_positiv&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -201,7 +192,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_email" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_email_BUG" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA_88M_LLCarro" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,7 +205,24 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_registration.TestRegistration.test_registration_negative_invalid_email&quot;" />
+      <option name="_new_target" value="&quot;test.test_registration.TestRegistration.test_registration_negative_invalid_email_BUG&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_password_BUG" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QA_88M_LLCarro" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_registration.TestRegistration.test_registration_negative_invalid_password_BUG&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -237,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_email_BUG" />
+        <item itemvalue="Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_password_BUG" />
         <item itemvalue="Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_duplicate_user" />
         <item itemvalue="Python tests.Python tests for test.test_registration.TestRegistration.test_registration_positive" />
         <item itemvalue="Python tests.Python tests for test.test_login.TestLogin" />
-        <item itemvalue="Python tests.Python tests for test.test_login.TestLogin.test_login_positiv" />
-        <item itemvalue="Python tests.Python tests for test.test_registration.TestRegistration.test_registration_negative_invalid_email" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +316,31 @@
       <option name="project" value="LOCAL" />
       <updated>1789121181072</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HW 260911">
+      <option name="closed" value="true" />
+      <created>1789391054973</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1789391054973</updated>
+    </task>
+    <task id="LOCAL-00008" summary="HW 260914">
+      <option name="closed" value="true" />
+      <created>1789391073276</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1789391073276</updated>
+    </task>
+    <task id="LOCAL-00009" summary="HW 260915">
+      <option name="closed" value="true" />
+      <created>1789424125038</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1789424125038</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +352,8 @@
     <MESSAGE value="Homework 260910: SetUp" />
     <MESSAGE value="CW 260910" />
     <MESSAGE value="HW 260911" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 260911" />
+    <MESSAGE value="HW 260914" />
+    <MESSAGE value="HW 260915" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 260915" />
   </component>
 </project>

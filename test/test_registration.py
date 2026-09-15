@@ -5,7 +5,6 @@ from models.user_dto import UserRegistr
 
 class TestRegistration:
 
-    #positiven Test erzeugen
     def test_registration_positive(self, session, registration_url, random_user):
         print(random_user)
         body = {
@@ -82,14 +81,31 @@ class TestRegistration:
 
     @pytest.mark.parametrize("invalid_password", [
         "qwerty123$",
-        # "QWERTY123!",
-        # "Qwerty!$",
-        # "Qwerty123",
-        #"Qwer ty1$",
-        # "Ыerty!123",
+        "QWERTY123!",
+        "Qwerty!$",
+        "Qwerty123",
+        "Ыerty!123",
         ])
     def test_registration_negative_invalid_password(self, session, registration_url, invalid_password):
         user = UserRegistr(fake.email(), invalid_password)
+        body = {
+            "username": user.username,
+            "password": user.password,
+            "firstName": user.firstName,
+            "lastName": user.lastName,
+        }
+        headers = {
+            "Content-Type": "application/json",
+        }
+        session.post(registration_url, json=body, headers=headers)
+        response = session.post(registration_url, json=body, headers=headers)
+        print(response.json())  # um zu sehen, welche message kommt
+        data = response.json()
+        assert response.status_code == 400  #
+        assert "must be a well-formed" in data["message"]["username"]
+
+    def test_registration_negative_invalid_password_BUG(self, session, registration_url, invalid_password):
+        user = UserRegistr(fake.email(), "Qwert y123!")
         body = {
             "username": user.username,
             "password": user.password,
