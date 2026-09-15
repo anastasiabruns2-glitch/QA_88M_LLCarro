@@ -4,7 +4,6 @@ from faker import Faker
 from models.user_dto import UserRegistr
 
 class TestRegistration:
-
     def test_registration_positive(self, session, registration_url, random_user):
         print(random_user)
         body = {
@@ -13,10 +12,7 @@ class TestRegistration:
             "firstName": random_user.firstName,
             "lastName": random_user.lastName,
         }
-        headers = {
-            "Content-Type": "application/json",
-        }
-        response = session.post(registration_url, json=body, headers=headers)
+        response = session.post(registration_url, json=body)
         assert response.status_code == 200
         assert "accessToken" in response.json().keys()
 
@@ -27,11 +23,8 @@ class TestRegistration:
             "firstName": random_user.firstName,
             "lastName": random_user.lastName,
         }
-        headers = {
-            "Content-Type": "application/json",
-        }
-        session.post(registration_url, json=body, headers=headers)
-        response = session.post(registration_url, json=body, headers=headers)
+        session.post(registration_url, json=body) #BEI DUPLICATE MUSS
+        response = session.post(registration_url, json=body)
         print(response.json())
         assert response.status_code == 400
         assert "User already exists" in response.json().values()
@@ -51,33 +44,25 @@ class TestRegistration:
             "firstName": user.firstName,
             "lastName": user.lastName,
         }
-        headers = {
-            "Content-Type": "application/json",
-        }
-        session.post(registration_url, json=body, headers=headers)
-        response = session.post(registration_url, json=body, headers=headers)
+        response = session.post(registration_url, json=body)
         print(response.json()) #um zu sehen, welche message kommt
         data = response.json()
         assert response.status_code == 400#
         assert "must be a well-formed" in data["message"]["username"]
 
-    def test_registration_negative_invalid_email_BUG(self, session, registration_url):
-        user = UserRegistr("gh@gfghcom", "Qwerty123$", "Bob", "Blalbla")
+    def test_registration_negative_empty_email(self, session, registration_url):
+        user = UserRegistr("", "Qwerty123$", "Bob", "Blalbla")
         body = {
             "username": user.username,
             "password": user.password,
             "firstName": user.firstName,
             "lastName": user.lastName,
         }
-        headers = {
-            "Content-Type": "application/json",
-        }
-        session.post(registration_url, json=body, headers=headers)
-        response = session.post(registration_url, json=body, headers=headers)
+        response = session.post(registration_url, json=body)
         print(response.json()) #um zu sehen, welche message kommt
         data = response.json()
         assert response.status_code == 400#
-        assert "must be a well-formed" in data["message"]["username"] # BUG: 'User already exists'
+        assert "must not be blank" in data["message"]["username"]
 
     @pytest.mark.parametrize("invalid_password", [
         "qwerty123$",
@@ -87,37 +72,15 @@ class TestRegistration:
         "Ыerty!123",
         ])
     def test_registration_negative_invalid_password(self, session, registration_url, invalid_password):
-        user = UserRegistr(fake.email(), invalid_password)
+        user = UserRegistr(fake.email(), invalid_password, "Bob", "Blalbla")
         body = {
             "username": user.username,
             "password": user.password,
             "firstName": user.firstName,
             "lastName": user.lastName,
         }
-        headers = {
-            "Content-Type": "application/json",
-        }
-        session.post(registration_url, json=body, headers=headers)
-        response = session.post(registration_url, json=body, headers=headers)
+        response = session.post(registration_url, json=body)
         print(response.json())  # um zu sehen, welche message kommt
         data = response.json()
         assert response.status_code == 400  #
-        assert "must be a well-formed" in data["message"]["username"]
-
-    def test_registration_negative_invalid_password_BUG(self, session, registration_url, invalid_password):
-        user = UserRegistr(fake.email(), "Qwert y123!")
-        body = {
-            "username": user.username,
-            "password": user.password,
-            "firstName": user.firstName,
-            "lastName": user.lastName,
-        }
-        headers = {
-            "Content-Type": "application/json",
-        }
-        session.post(registration_url, json=body, headers=headers)
-        response = session.post(registration_url, json=body, headers=headers)
-        print(response.json())  # um zu sehen, welche message kommt
-        data = response.json()
-        assert response.status_code == 400  #
-        assert "must be a well-formed" in data["message"]["username"]
+        assert "Must contain at" in data["message"]["password"]
