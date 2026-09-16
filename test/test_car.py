@@ -61,6 +61,7 @@ class TestCars:
         assert response.status_code == 200
         assert isinstance(response.json()["cities"], list)
 
+# Здесь та же ошибка, что и в def test_get_all_cars_negative_wrong_token
     def test_get_all_cities_negative_wrong_token(self, session, get_all_cities_url, auth_headers):
         headers = {"Authorization": "Lorem Ipsum"}
         response = session.get(
