@@ -9,6 +9,7 @@ from faker import Faker
 
 from models.car_dto import Car
 from models.user_dto import UserRegistr, UserLogin
+from dataclasses import asdict
 
 fake = Faker()
 
@@ -28,6 +29,10 @@ def add_new_car_url():
 @pytest.fixture(scope="session")
 def get_user_car_url():
     return BASE_URL + API_VERSION + GET_USER_CARS_URL
+
+@pytest.fixture(scope="session")
+def get_all_cities_url():
+    return BASE_URL + API_VERSION + GET_ALL_CITIES
 
 @pytest.fixture(scope="session")
 def delete_user_car_by_id_url():
@@ -64,11 +69,8 @@ def registered_user(session, registration_url): #
 
 @pytest.fixture(scope="function")
 def auth_token(session, registration_url, random_user):
-    user_data = {
-        "username": random_user.username,
-        "password": random_user.password,
-    }
-    response = session.post(registration_url, json=user_data)
+    user_data = asdict(random_user)
+    response = session.post(registration_url, json=user_data, timeout=10.0)
     assert response.status_code == 200, (
         f"Failed registration {response.status_code} {response.text}"
     )
@@ -92,3 +94,11 @@ def random_car():
         about=f"{fake.text(max_nb_chars=25)}",
         city="Haifa",
     )
+
+# >> Серьезные сомнения
+@pytest.fixture(scope="function")
+def create_car_serial_number(session, add_new_car_url, auth_headers):
+    response = session.post(add_new_car_url, json=add_new_car_url, headers=auth_headers)
+    car_serial_number = response.json()["carSerialNumber"]
+    print("This is the SerialNumber of the Fixture: ", car_serial_number)
+    return car_serial_number
