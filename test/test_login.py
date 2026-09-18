@@ -2,6 +2,8 @@ import pytest
 from config import TEST_PASSWORD
 
 class TestLogin:
+
+    @pytest.mark.smoke
     def test_login_positiv(self, session, login_url, registered_user):
         body = {
             "username": registered_user.username,
@@ -15,7 +17,6 @@ class TestLogin:
         "",
         "dfg@ghj.com",
     ])
-
     def test_login_negativ_wrong_email(self, session, login_url, invalid_username):
         body = {
             "username": invalid_username,
@@ -30,7 +31,6 @@ class TestLogin:
         "",
         "Qwerty123!$",
     ])
-
     def test_login_negativ_wrong_password(self, session, login_url, invalid_password):
         body = {
             "username": TEST_PASSWORD,

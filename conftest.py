@@ -35,10 +35,6 @@ def get_all_cities_url():
     return BASE_URL + API_VERSION + GET_ALL_CITIES
 
 @pytest.fixture(scope="session")
-def delete_user_car_by_id_url():
-    return BASE_URL + API_VERSION + DELETE_CAR_BY_ID
-
-@pytest.fixture(scope="session")
 def session():
     s = requests.Session()
     s.headers.update({"Content-Type": "application/json"})
@@ -95,10 +91,9 @@ def random_car():
         city="Haifa",
     )
 
-# >> Серьезные сомнения
 @pytest.fixture(scope="function")
-def create_car_serial_number(session, add_new_car_url, auth_headers):
-    response = session.post(add_new_car_url, json=add_new_car_url, headers=auth_headers)
-    car_serial_number = response.json()["carSerialNumber"]
+def create_car_serial_number(session, add_new_car_url, auth_headers, random_car):
+    response = session.post(add_new_car_url, json=asdict(random_car), headers=auth_headers)
+    car_serial_number = random_car.serialNumber
     print("This is the SerialNumber of the Fixture: ", car_serial_number)
     return car_serial_number

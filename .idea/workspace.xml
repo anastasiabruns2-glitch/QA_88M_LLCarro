@@ -42,61 +42,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000778777" />
-      <entry key="MS500" value="1.00996655564273" />
-      <entry key="S2" value="1.458294955739984" />
-      <entry key="S5" value="2.0909756337863454" />
-      <entry key="S10" value="2.472907845786012" />
-      <entry key="S30" value="2.820341663295453" />
-      <entry key="S60" value="3.2111643294308343" />
-      <entry key="M2" value="5.130771071537912" />
-      <entry key="M5" value="16.041728989719658" />
-      <entry key="M10" value="34.43365340946389" />
-      <entry key="M15" value="48.041920256132926" />
-      <entry key="M30" value="70.82175086729323" />
-      <entry key="H1" value="90.50641345628574" />
-      <entry key="H2" value="117.06836862801457" />
-      <entry key="H4" value="159.55540326091645" />
-      <entry key="D1" value="256.6159451095489" />
-      <entry key="W1" value="285.6320728700128" />
+      <entry key="MS100" value="1.2324682784223653" />
+      <entry key="MS500" value="3.1347412127796517" />
+      <entry key="S2" value="4.9685735673145714" />
+      <entry key="S5" value="5.806338580039818" />
+      <entry key="S10" value="7.599357552952303" />
+      <entry key="S30" value="13.855027260705837" />
+      <entry key="S60" value="18.25884612503856" />
+      <entry key="M2" value="22.138868962301057" />
+      <entry key="M5" value="27.64872923996665" />
+      <entry key="M10" value="35.17718599446666" />
+      <entry key="M15" value="44.44709576493826" />
+      <entry key="M30" value="72.10099960848395" />
+      <entry key="H1" value="107.35264035121564" />
+      <entry key="H2" value="147.6881788454796" />
+      <entry key="H4" value="199.59392054655524" />
+      <entry key="D1" value="311.993639539195" />
+      <entry key="W1" value="345.73782650602385" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.018987988862134E-224" />
-      <entry key="S2" value="1.4608306062637525E-56" />
-      <entry key="S5" value="6.843354938076239E-23" />
-      <entry key="S10" value="1.2867963532843158E-11" />
-      <entry key="S30" value="4.702514846181379E-4" />
-      <entry key="S60" value="0.03736168992088702" />
-      <entry key="M2" value="0.3346135437683025" />
-      <entry key="M5" value="1.4300762984990294" />
-      <entry key="M10" value="3.7428512846180464" />
-      <entry key="M15" value="6.21259346314827" />
-      <entry key="M30" value="11.47120472216676" />
-      <entry key="H1" value="16.922040285301236" />
-      <entry key="H2" value="24.767395544844653" />
-      <entry key="H4" value="36.91610463040255" />
-      <entry key="D1" value="63.67872710705762" />
-      <entry key="W1" value="71.54845907801963" />
+      <entry key="MS500" value="9.972411172698602E-224" />
+      <entry key="S2" value="1.9514078698747922E-56" />
+      <entry key="S5" value="7.886148936167508E-23" />
+      <entry key="S10" value="1.4608241351435943E-11" />
+      <entry key="S30" value="5.213048863114818E-4" />
+      <entry key="S60" value="0.04665128183308142" />
+      <entry key="M2" value="0.5715014400784673" />
+      <entry key="M5" value="3.4497142271494527" />
+      <entry key="M10" value="7.384558700151839" />
+      <entry key="M15" value="10.44193746348843" />
+      <entry key="M30" value="17.489601492230204" />
+      <entry key="H1" value="26.10000284618896" />
+      <entry key="H2" value="36.65270609222456" />
+      <entry key="H4" value="50.77069321732409" />
+      <entry key="D1" value="81.24176906390107" />
+      <entry key="W1" value="90.31864454056287" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9265880619645601" />
-      <entry key="MS500" value="0.9947361269256663" />
-      <entry key="S2" value="1.4533289539620025" />
-      <entry key="S5" value="2.0883295545879164" />
-      <entry key="S10" value="2.4713840383759766" />
-      <entry key="S30" value="2.820125389929549" />
-      <entry key="S60" value="3.245926925261251" />
-      <entry key="M2" value="5.454710343618831" />
-      <entry key="M5" value="17.445918561524117" />
-      <entry key="M10" value="38.1439778983147" />
-      <entry key="M15" value="54.221841524775634" />
-      <entry key="M30" value="82.26630517210293" />
-      <entry key="H1" value="107.40995023435981" />
-      <entry key="H2" value="141.82237485226665" />
-      <entry key="H4" value="196.46133990869464" />
-      <entry key="D1" value="320.29164086751587" />
-      <entry key="W1" value="357.1800416212442" />
+      <entry key="MS100" value="1.0253173763078853" />
+      <entry key="MS500" value="3.056538460610715" />
+      <entry key="S2" value="4.9345988115668495" />
+      <entry key="S5" value="5.789837298264678" />
+      <entry key="S10" value="7.588337976880391" />
+      <entry key="S30" value="13.848829476045164" />
+      <entry key="S60" value="18.299828029266962" />
+      <entry key="M2" value="22.697313144045452" />
+      <entry key="M5" value="31.06462452241655" />
+      <entry key="M10" value="42.521804804190594" />
+      <entry key="M15" value="54.849590044096836" />
+      <entry key="M30" value="89.55605936468044" />
+      <entry key="H1" value="133.42655071608462" />
+      <entry key="H2" value="184.32228352948354" />
+      <entry key="H4" value="250.35135381128708" />
+      <entry key="D1" value="393.2316982259365" />
+      <entry key="W1" value="436.05587566135574" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -116,6 +116,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests for test.test_BUGs.TestRegistrationBug.executor": "Run",
     "Python tests.Python tests for test.test_car.TestCars.test_add_new_car_positive.executor": "Run",
+    "Python tests.Python tests for test.test_car.TestCars.test_delete_contact_negative.executor": "Run",
+    "Python tests.Python tests for test.test_car.TestCars.test_delete_contact_positive.executor": "Run",
     "Python tests.Python tests for test.test_car.TestCars.test_get_all_cars_negative_wrong_token.executor": "Run",
     "Python tests.Python tests for test.test_car.TestCars.test_get_all_cars_positive.executor": "Run",
     "Python tests.Python tests for test.test_car.TestCars.test_get_all_cities_negative_wrong_token.executor": "Run",
@@ -152,8 +154,6 @@
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
       "repository"
     ]
   }
@@ -166,8 +166,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test.test_car.TestCars.test_get_all_cities_negative_wrong_token">
-    <configuration name="Python tests for test.test_car.TestCars.test_add_new_car_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test.test_car.TestCars.test_delete_contact_negative">
+    <configuration name="Python tests for test.test_car.TestCars.test_delete_contact_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QA_88M_LLCarro" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,7 +180,24 @@
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_car.TestCars.test_add_new_car_positive&quot;" />
+      <option name="_new_target" value="&quot;test.test_car.TestCars.test_delete_contact_negative&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test.test_car.TestCars.test_delete_contact_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QA_88M_LLCarro" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_car.TestCars.test_delete_contact_positive&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -235,30 +252,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.test_car.TestCars.test_get_all_cities_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="QA_88M_LLCarro" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_car.TestCars.test_get_all_cities_positive&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test.test_car.TestCars.test_delete_contact_negative" />
+        <item itemvalue="Python tests.Python tests for test.test_car.TestCars.test_delete_contact_positive" />
         <item itemvalue="Python tests.Python tests for test.test_car.TestCars.test_get_all_cities_negative_wrong_token" />
-        <item itemvalue="Python tests.Python tests for test.test_car.TestCars.test_get_all_cities_positive" />
-        <item itemvalue="Python tests.Python tests for test.test_car.TestCars.test_get_all_cars_positive" />
         <item itemvalue="Python tests.Python tests for test.test_car.TestCars.test_get_all_cars_negative_wrong_token" />
-        <item itemvalue="Python tests.Python tests for test.test_car.TestCars.test_add_new_car_positive" />
+        <item itemvalue="Python tests.Python tests for test.test_car.TestCars.test_get_all_cars_positive" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +373,39 @@
       <option name="project" value="LOCAL" />
       <updated>1789482118501</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="HW 260916">
+      <option name="closed" value="true" />
+      <created>1789579542220</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1789579542220</updated>
+    </task>
+    <task id="LOCAL-00014" summary="HW 260916">
+      <option name="closed" value="true" />
+      <created>1789579555434</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1789579555434</updated>
+    </task>
+    <task id="LOCAL-00015" summary="HW 260916 + newfixture + test_car.py">
+      <option name="closed" value="true" />
+      <created>1789579660762</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1789579660762</updated>
+    </task>
+    <task id="LOCAL-00016" summary="HW 260916 + newfixture + test_car.py">
+      <option name="closed" value="true" />
+      <created>1789579845526</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1789579845526</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,6 +421,9 @@
     <MESSAGE value="HW 260915" />
     <MESSAGE value="HW 260915 + BUGs" />
     <MESSAGE value="HW 260915 + BUGs + new Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 260915 + BUGs + new Tests" />
+    <MESSAGE value="HW 260916 newFicture + new test_cars.py" />
+    <MESSAGE value="HW 260916" />
+    <MESSAGE value="HW 260916 + newfixture + test_car.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 260916 + newfixture + test_car.py" />
   </component>
 </project>
